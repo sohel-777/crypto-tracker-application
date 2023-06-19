@@ -41,7 +41,9 @@
   }
 }
 @media only screen and (max-width: 700px) {
-
+.list-row{
+  padding: .5rem 0rem !important;
+}
   .desktop-td-mkt {
     display: none;
   }

@@ -104,10 +104,10 @@ const ComparePage = () => {
               daysText={true}
             />
           </div>
-          <div className="grey-wrapper" style={{ padding: "0rem 1rem" }}>
+          <div className="grey-wrapper" style={{ padding: "0rem .5rem" }}>
             <List coin={crypto1Data} />
           </div>
-          <div className="grey-wrapper" style={{ padding: "0rem 1rem" }}>
+          <div className="grey-wrapper" style={{ padding: "0rem .5rem" }}>
             <List coin={crypto2Data} />
           </div>
           <div className="grey-wrapper">
