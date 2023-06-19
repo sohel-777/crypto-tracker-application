@@ -9,8 +9,8 @@ export default function SelectDays({ days, handleDaysChange, noPTag , daysText})
     <div className="select-days">
 {!noPTag && <p>Price Change In</p>}
 {daysText && <p>Days</p>}
-
-      <Select
+<div className="select-box">
+<Select
       sx={{
         height: "2.5rem",
         color:"var(--white)",
@@ -40,6 +40,8 @@ export default function SelectDays({ days, handleDaysChange, noPTag , daysText})
         <MenuItem value={120}>120 Days</MenuItem>
         <MenuItem value={365}>1 Year</MenuItem>
       </Select>
+</div>
+      
     </div>
   );
 }

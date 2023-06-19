@@ -79,3 +79,22 @@ img {
   gap: 1rem;
   
 }
+
+@media screen and (max-width: 768px) {
+.coins-days-flex{
+  width: 100vw !important;
+}
+.coin-flex{
+  width: 60% !important;
+}
+.coin-flex p{
+  width: 30% !important;
+}
+.select-days{
+  width: 40% !important;
+}
+.select-days p{
+  width: 20% !important;
+}
+
+}
