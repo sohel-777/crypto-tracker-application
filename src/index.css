@@ -19,6 +19,7 @@
   --red: #f94141;
 }
 *{
+  
   transition:  all .3s ease-in-out;
 }
 html{
@@ -75,6 +76,6 @@ img {
   justify-content: flex-start;
   align-items: center;
   margin: 1.5rem;
-  gap: 2rem;
+  gap: 1rem;
   
 }

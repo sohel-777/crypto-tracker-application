@@ -101,6 +101,7 @@ const ComparePage = () => {
               days={days}
               handleDaysChange={handleDaysChange}
               noPTag={true}
+              daysText={true}
             />
           </div>
           <div className="grey-wrapper" style={{ padding: "0rem 1rem" }}>

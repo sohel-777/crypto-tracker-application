@@ -7,6 +7,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+        height: auto;
+        width: 7px;
+        min-height: 1.4375em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
     .coins-flex{
         display: flex;
         justify-content: flex-start;
