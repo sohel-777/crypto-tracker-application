@@ -9,7 +9,7 @@
 @media screen and (max-width: 768px) {
     .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
         height: auto;
-        width: 7px;
+        width: 7px !important;
         min-height: 1.4375em;
         text-overflow: ellipsis;
         white-space: nowrap;
